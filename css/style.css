@@ -1,0 +1,78 @@
+
+* {
+	box-sizing: border-box;
+}
+body{
+	/* removes margins and paddings from entire page */
+	margin: 0;
+	border: 0;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.banner {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: rgba(95,158,160,0.6);
+}
+
+#top-banner {
+	position: fixed;
+	top: 0;
+}
+
+#bttm-banner {
+	position: fixed;
+	bottom: 0;
+}
+
+.title-color {
+	color: #ffffff;
+	font-size: 200%;
+	
+}
+
+.footer-color {
+	color: #dddddd;
+	font-size: 150%;
+}
+
+.pad-banner {
+	padding: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.align-right {
+	float: right;
+}
+
+#map-container {
+	position: fixed; 
+    top: 0; 
+    left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li, li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+	padding: 4px 10px;
+    text-decoration: none;
+}
+
+li a:hover, li a:active {
+    background-color: #bfd8d9;
+	color: #111;
+}
